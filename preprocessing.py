@@ -28,8 +28,8 @@ def preprocess_text(text):
     return preprocessed_text
 
 
-file_path = "Scrapped_data/marketing_train_data.txt"  # Path to data file
-output_file_path = "preprocessed_marketing_train_data.txt"  # Path to save preprocessed data
+file_path = "Scrapped_data/Marketing_test/Marketing_test_3_data.txt"  # Path to data file
+output_file_path = "preprocessed_Marketing_3_test_data.txt"  # Path to save preprocessed data
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = file.read()

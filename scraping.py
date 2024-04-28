@@ -80,6 +80,6 @@ urls = [
 scraped_data = scrape_web_pages(urls)
 
 # Save scraped data to a file
-with open("marketing_test_data.txt", "w", encoding="utf-8") as file:
+with open("Marketing_test_3_data.txt", "w", encoding="utf-8") as file:
     for data in scraped_data:
         file.write(data + "\n")
